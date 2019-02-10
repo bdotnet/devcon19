@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Ajay Chebbi",
+        "designation" : "STSM/Lead Architect - Mobile developer experience , IBM",
+        "twitterHandle" : "https://twitter.com/ajaychebbi",
+        "linkedInHandle" : "https://www.linkedin.com/in/ajaychebbi/",
+        "profilePic" : "assets/ajay.jpg"
+    },
+    {
+        "name": "Vic Parmar",
+        "designation" : "CTO, AaNeel InfoTech",
+        "twitterHandle" : "https://twitter.com/vicparmar",
+        "linkedInHandle" : "https://www.linkedin.com/in/vicparmar/",
+        "profilePic" : "assets/vic.png"
+    },
+    {
+        "name": "Wriju Ghosh",
+        "designation" : "Cloud Solution Architect, Microsoft",
+        "twitterHandle" : "https://twitter.com/wrijugh",
+        "linkedInHandle" : "https://www.linkedin.com/in/wrijughosh/",
+        "profilePic" : "assets/wriju.jpg"
+    },
+    {
+        "name": "Swaminathan Vetri",
+        "designation" : "Lead Engineer, JCPenney/Microsoft MVP",
+        "twitterHandle" : "https://twitter.com/svswaminathan",
+        "linkedInHandle" : "https://www.linkedin.com/in/swaminathanvetri/",
+        "profilePic" : "assets/Swami.png"
+    },
+    {
+        "name": "Krunal Trivedi",
+        "designation" : "MCT India Regional Lead and Microsoft MVP – Azure",
+        "twitterHandle" : "https://twitter.com/TrainerKrunal",
+        "linkedInHandle" : "https://www.linkedin.com/in/trainerkrunaltrivedi/",
+        "profilePic" : "assets/krunal.jpg"
+    },
+    {
+        "name": "Sarthak Mahapatra",
+        "designation" : "Principal Consultant, Xebia",
+        "twitterHandle" : "https://twitter.com/sarthakm",
+        "linkedInHandle" : "https://www.linkedin.com/in/msarthak/",
+        "profilePic" : "assets/sarthak.jpg"
+    }
+]

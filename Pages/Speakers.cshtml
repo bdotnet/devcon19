@@ -1,0 +1,52 @@
+@page "/speakers"
+@inject HttpClient Http
+
+<h1>Meet our awesome speakers</h1>
+<br>
+<hr>
+
+@if(speakers == null)
+{
+    <div> Loading ... </div>
+}
+else
+{
+    <div class="row">
+    @foreach(var speaker in speakers)
+    {        
+    <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top img-thumbnail" src="@speaker.ProfilePic" alt="@speaker.Name">
+                    <div class="card-body">
+                        <h5 class="card-title">@speaker.Name</h5>
+                        <p class="card-text">@speaker.Designation</p>
+                        <a class="card-link" href="@speaker.TwitterHandle" target="_blank">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                        <a class="card-link" href="@speaker.LinkedInHandle" target="_blank">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                    </div>
+                </div>
+    </div>
+    }
+    </div>
+}
+
+
+@functions{
+
+    Speaker[] speakers;
+    protected override async Task OnInitAsync()
+    {
+        speakers = await Http.GetJsonAsync<Speaker[]>("sample-data/speakers.json");
+    }
+    class Speaker
+    {
+        public string Name {get;set;}
+        public string Designation {get;set;}
+        public string TwitterHandle {get;set;}
+        public string LinkedInHandle {get;set;}
+        public string ProfilePic {get;set;}
+    }
+}

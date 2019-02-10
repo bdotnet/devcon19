@@ -1,0 +1,69 @@
+[
+    {
+        "title": "Welcome/Event Briefing",
+        "speaker" : "Swaminathan Vetri",
+        "time" : "09:30 AM"
+    },
+    {
+        "title": "Microservices & Service Mesh",
+        "speaker" : "Ajay Chebbi",
+        "time" : "10:00 AM",
+        "speakerImage" : "assets/ajay.jpg",
+        "abstract" : "Microservices is the hottest server side paradigm in todays world. In a nutshell Microservices is making each of your APIs running in a separate server. Containers and orchestration has made it a reality and the microservices paradigm has gathered steam. Almost all Born on the cloud companies implement microservices. Older services are modernizing their apps to refactor them into microservices. Congratulations! instead of managing the security and scaling of one server - you are managing 50 now!. In this session you will learn Microservices, and managing the communication, security and discoverability using Istio a popular service mesh."
+    },
+    {
+        "title": "Break/Networking",
+        "speaker" : "",
+        "time" : "11:00 AM"
+    },
+    {
+        "title": "Developer's Journey to Cloud",
+        "speaker" : "Wriju Ghosh",
+        "time" : "11:15 AM",
+        "speakerImage" : "assets/wriju.jpg",
+        "abstract": "Practices of building and moving applications to cloud. Choosing the right runtime, development environment, backend, security and many more aspects. Web Server or Container? Is it SQL or NoSQL? Demo oriented discussion around trend and practices for cloud based application development."
+    },
+    {
+        "title": "Windows Containers for Modern Web Apps",
+        "speaker" : "Krunal Trivedi",
+        "time" : "12:15 AM",
+        "speakerImage" : "assets/krunal.jpg",
+        "abstract":"Container isolation empowers developers and IT to collaborate effectively with clear boundaries of configuration and execution. In this session we show real-life examples, covering how to dockerize your web and API apps,how to run Windows-server based containers on Azure App Service, and how to perform container customizations for scenarios such as image generation, custom font installation, GAC assemblies, and calling native DLLs from your web apps. Learn how to get direct access into running containers to run PowerShell commands.Join us to learn why containers are a paradigm shift to a modern DevOps workflow!"
+    },
+    {
+        "title": "Lunch/Networking",
+        "speaker" : "",
+        "time" : "01:00 PM"
+    },
+    {
+        "title": "Azure DevOps & AppCenter for Mobile apps",
+        "speaker" : "Sarthak Mahapatra",
+        "time" : "01:30 PM",
+        "speakerImage" : "assets/sarthak.jpg",
+        "abstract":"Azure DevOps & AppCenter are designed for any developer and any mobile platform. This session focuses on tools & practises for Mobile DevOps"
+    },
+    {
+        "title": "AI for Every Developer",
+        "speaker" : "Vic Parmar",
+        "time" : "02:30 PM",
+        "speakerImage" : "assets/vic.png",
+        "abstract" : "All things AI for developers."
+    },
+    {
+        "title": "Break/Networking",
+        "speaker" : "",
+        "time" : "03:30 PM"
+    },
+    {
+        "title": "What's new in .NET Core 3 ?",
+        "speaker" : "Swaminathan Vetri",
+        "time" : "03:45 PM",
+        "speakerImage" : "assets/Swami.png",
+        "abstract": ".NET Core has been growing super fast. A lot of cool and new additions have gone into .NET Core 3.0. Experience a demo based rundown of some of the latest and greatest additions to .NET Core 3"
+    },
+    {
+        "title": "Raffle/Goodies Give aways/Wrap up",
+        "speaker" : "Swaminathan Vetri",
+        "time" : "04:45 PM"
+    }
+]
